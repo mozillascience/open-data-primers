@@ -1,13 +1,3 @@
-/*
-  Do not make manual changes to this stylesheet.
-  To make style changes, edit the "style-dev.less" file while previewing the /dev_template/index.html file.
-  When you're ready, use http://lesscss.org/less-preview/ to compile the .less file into CSS and
-  replace the CSS below this message with the output.
-  Note: for background images from the assets folder.. remove "assets" from the url() delaration
-  This -    background: url(../assets/images/nav-selected-indicator.svg);
-  Becomes - background: url(../images/nav-selected-indicator.svg);
-*/
-
 body {
   font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -23,30 +13,30 @@ body * {
 h1 {
   font-size: 32px;
   margin: 0 0 35px 0;
-  color: #273D44;
+  color: #004d99;
   position: relative;
   line-height: 120%;
 }
 h2 {
   font-size: 32px;
   font-style: italic;
-  color: #934e9d;
+  color: #000d1a;
   margin: 30px 0 20px 0;
 }
 h3 {
-  color: #934e9d;
+  color: #000d1a;
   font-size: 20px;
   font-weight: 500;
   margin: 20px 0 8px 0;
 }
 h4 {
-  color: #273D44;
+  color: #004d99;
   margin: 0 0 10px 0;
   font-size: 18px;
 }
 p,
 li {
-  color: #272f44;
+  color: #00264d;
   line-height: 160%;
 }
 ul,
@@ -72,17 +62,17 @@ ul li:before {
 }
 strong {
   font-weight: 500;
-  color: #273D44;
+  color: #004d99;
 }
 p {
   margin: 0 0 30px 0;
 }
 a {
-  color: #4e589d;
+  color: #288dc7;
   transition: background 0.05s ease-out;
 }
 a:hover {
-  background: #adb3d6;
+  background: #b0d8ef;
 }
 article {
   max-width: 750px;
@@ -104,9 +94,9 @@ article {
 }
 .example {
   display: flex;
-  margin: 35px 0 40px 0;
-  background: #cfd2e7;
-  color: #934e9d;
+  margin: 35px 0px 40px 10px;
+  background: #74A5CD;
+  color: #000d1a;
   padding: 30px 35px;
 }
 .example .title {
@@ -135,7 +125,7 @@ article {
   top: 4px;
   height: calc(100% - 8px);
   position: absolute;
-  background: #ab69b5;
+  background: #004080;
 }
 .example .content p:last-child {
   margin: 0;
@@ -166,14 +156,14 @@ article {
   left: 0;
   top: 5px;
   position: absolute;
-  background: #ab69b5;
+  background: #004080;
 }
 .meta-information .details {
   flex: 1;
 }
 .meta-information .details time,
 .meta-information .details .difficulty {
-  color: #934e9d;
+  color: #000d1a;
   font-weight: 700;
   margin-bottom: 3px;
   display: block;
@@ -200,7 +190,7 @@ article {
   margin-bottom: 0;
 }
 aside {
-  background: #4e589d;
+  background: #003367;
   position: fixed;
   height: 100vh;
   width: 230px;
@@ -230,17 +220,17 @@ nav a {
 }
 nav a.selected,
 nav a.selected:hover {
-  background: #934e9d;
+  background: #000d1a;
   color: white;
   font-weight: 500;
 }
 nav a:hover {
-  background: #934e9d;
+  background: #001a33;
   color: #ffffff;
 }
 nav a:after {
   content: "";
-  background: url(../images/nav-selected-indicator_violeta.svg);
+  background: url(../images/nav-selected-indicator_navy.svg);
   background-position: top left;
   background-repeat: no-repeat;
   background-size: contain;
@@ -269,12 +259,12 @@ nav a.selected:after {
   font-size: 22px;
   margin: 0 0 6px 0;
   padding: 0;
-  color: #934e9d;
+  color: #000d1a;
 }
 .steps time {
   margin: 0 0 10px 0;
   display: block;
-  color: #272f44;
+  color: #00264d;
   font-weight: 500;
 }
 .steps time:before {
@@ -297,7 +287,7 @@ nav a.selected:after {
   position: absolute;
   bottom: -2px;
   height: 2px;
-  background: #ab69b5;
+  background: #004080;
   width: 35%;
   left: calc(22% + 50px);
 }
@@ -314,8 +304,8 @@ nav a.selected:after {
   top: -10px;
   font-weight: 400;
   font-size: 22px;
-  color: #934e9d;
-  border: solid 2px #ab69b5;
+  color: #000d1a;
+  border: solid 2px #004080;
   height: 43px;
   width: 43px;
   text-align: center;
@@ -368,7 +358,7 @@ nav a.selected:after {
 .steps ul li h2,
 .steps ol li h2 {
   font-size: 15px;
-  color: #273D44;
+  color: #004d99;
   font-style: normal;
   font-weight: 500;
   margin: 0;
@@ -390,7 +380,7 @@ nav a.selected:after {
 .glossary .term h3 {
   font-weight: 500;
   font-size: 16px;
-  color: #273D44;
+  color: #004d99;
   margin: 0;
 }
 .glossary .term p {
@@ -426,7 +416,7 @@ table.altrowstable {
   font-size: 11px;
   color: #333333;
   border-width: 1px;
-  border-color: #934e9d;
+  border-color: #000d1a;
   border-collapse: collapse;
   width: 100%;
 }
@@ -434,22 +424,17 @@ table.altrowstable th {
   border-width: 1px;
   padding: 8px;
   border-style: solid;
-  border-color: #934e9d;
+  border-color: #000d1a;
 }
 table.altrowstable td {
   border-width: 1px;
   padding: 8px;
   border-style: solid;
-  border-color: #934e9d;
+  border-color: #000d1a;
 }
 .oddrowcolor {
-  background-color: #ab69b5;
+  background-color: #004080;
 }
 .evenrowcolor {
-  background-color: #cfd2e7;
+  background-color: #74A5CD;
 }
-
-
-
-
-
