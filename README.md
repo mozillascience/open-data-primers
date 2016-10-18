@@ -2,6 +2,12 @@
 
 Welcome to the [@MozillaScience](https://twitter.com/mozillascience) Lab's collection of exercises to educate people in open data use/reuse.
 
+**this is how you update the side bar**
+
+* Create a markdown file for your content
+* Save it with a name that follows the naming conventions in [SUMMARY.md](https://github.com/mozillascience/open-data-primers/blob/master/SUMMARY.md)
+* Update [SUMMARY.md]() with the name of that file as a link to the corresponding module and it will update the sidebar to display content
+
 
 **this is how you embed video**
 
