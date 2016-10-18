@@ -12,7 +12,7 @@ git config user.email "auremoser@gmail.com"
 
 git remote add upstream "https://$GH_TOKEN@github.com/mozillascience/open-data-primers.git"
 git fetch upstream
-#git reset upstream/gh-pages
+git reset upstream/gh-pages
 
 touch .
 
