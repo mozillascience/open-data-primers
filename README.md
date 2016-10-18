@@ -27,7 +27,7 @@ Finally, if you have a question or problem, you can file a [GitHub issue in this
 ## Help us grow and improve this book!
 Check out our[issues (a list of items that need help or fixing)](https://github.com/mozillascience/open-data-primers/issues), to see what you can do to improve or add to these materials. **We'd love your help!**
 
-### [Original Authors]
+### Original Authors
 * [Stephanie Wright] (https://github.com/stephwright), Open Data Training Lead, Mozilla Science Lab
 * [Zannah Marsh] (https://github.com/zee-moz), Instructional Designer, Mozilla Science Lab
 
