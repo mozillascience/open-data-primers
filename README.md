@@ -1,4 +1,4 @@
-# Welcome to Mozilla Science Lab's Study Group Orientation! 
+# Welcome to Mozilla Science Lab's Open Data Primer! 
 
 ###Hello! Thanks for dropping by.
 
@@ -28,23 +28,23 @@ Finally, if you have a question or problem, you can file a [GitHub issue in this
 Check out our[issues (a list of items that need help or fixing)](https://github.com/mozillascience/open-data-primers/issues), to see what you can do to improve or add to these materials. **We'd love your help!**
 
 ### Original Authors
-* [Stephanie Wright] (https://github.com/stephwright), Open Data Training Lead, Mozilla Science Lab
-* [Zannah Marsh] (https://github.com/zee-moz), Instructional Designer, Mozilla Science Lab
+* [Stephanie Wright](https://github.com/stephwright), Open Data Training Lead, Mozilla Science Lab
+* [Zannah Marsh](https://github.com/zee-moz), Instructional Designer, Mozilla Science Lab
 
 Huge thanks to contributors from 2016 Global Sprint who aren't noted in GitHub because we were working in the Google Docs!
-* [Amel Ghouila] (https://github.com/amelgh)
-* [Dhafer Laouini] (https://github.com/Dhaferl)
-* [Fatma Guerfali] (https://github.com/FatmaZG)
-* [John Kratz] (https://github.com/JEK-III)
-* [Alexander Morley] (https://github.com/alexmorley)
-* [Matthew Marcello] (https://github.com/mmarcello)
+* [Amel Ghouila](https://github.com/amelgh)
+* [Dhafer Laouini](https://github.com/Dhaferl)
+* [Fatma Guerfali](https://github.com/FatmaZG)
+* [John Kratz](https://github.com/JEK-III)
+* [Alexander Morley](https://github.com/alexmorley)
+* [Matthew Marcello](https://github.com/mmarcello)
 * Natalie Foo
 * Katie Fortney
 * Stephanie Simms
-* [Siwar-BLK] (https://github.com/Siwar-BLK)
-* [zbouslama] (https://github.com/zbouslama)
+* [Siwar-BLK](https://github.com/Siwar-BLK)
+* [zbouslama] https://github.com/zbouslama)
 
-See also the list of [contributors] (https://github.com/mozillascience/open-data-primers/graphs/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/mozillascience/open-data-primers/graphs/contributors) who participated in this project.
 
 ## License
 ![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)
