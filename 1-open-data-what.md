@@ -1,5 +1,5 @@
 # Why Open Data: A Primer.
-# Hello.
+## Hello.
 
 You’re probably here because you’ve heard a lot about open data recently and you want to know more. This primer is a very quick introduction to the topic. We’ll be talking about the kind of data collected or observed by researchers, governments, and other groups to study problems or questions in fields as diverse as astrophysics, urban planning, and linguistics. This primer was produced by Mozilla Science Lab, a program dedicated encouraging the use of open source practices and web technologies to do better science.
 
