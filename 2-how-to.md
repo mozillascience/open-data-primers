@@ -1,5 +1,5 @@
 # How To Open Your Data: A Primer
-# Hi there!
+## Hi there!
 
 ### If you love your data, set it free.
 
