@@ -30,6 +30,8 @@ Check out our [issues (a list of items that need help or fixing)](https://github
 ### Original Authors
 * [Stephanie Wright](https://github.com/stephwright), Open Data Training Lead, Mozilla Science Lab
 * [Zannah Marsh](https://github.com/zee-moz), Instructional Designer, Mozilla Science Lab
+* [Christie Bahlai](https://github.com/cbahlai), Mozilla Fellow for Science 2015-16, Assistant Professor, Kent State University
+* [Danielle Robinson](https://github.com/daniellecrobinson), Mozilla Fellow for Science 2016-17, Scientific and Partnerships Director, Code for Science and Society
 
 Huge thanks to contributors from 2016 Global Sprint who aren't noted in GitHub because we were working in the Google Docs!
 * [Amel Ghouila](https://github.com/amelgh)
