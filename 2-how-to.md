@@ -1,7 +1,7 @@
-#How To Open Your Data: A Primer
-#Hi there!
+# How To Open Your Data: A Primer
+# Hi there!
 
-**If you love your data, set it free.**
+### If you love your data, set it free.
 
 The aim of open data is to maximize the potential of your data and to help it find new users and new uses.
 
