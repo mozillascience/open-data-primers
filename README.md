@@ -1,18 +1,18 @@
-# Welcome to Mozilla Science Lab's Open Data Primer! 
+# Welcome to Mozilla Science Lab's Open Data Primers!
 
 ###Hello! Thanks for dropping by.
 
-You're reading an [online handbook](https://mozillascience.github.io/open-data-primers/) of Open Data Training Primers developed by the Mozilla Science Lab and their community members.  
+You're reading an [online handbook](https://mozillascience.github.io/open-data-primers/) of Open Data Training Primers developed by the [Mozilla Science Lab](https://science.mozilla.org/) and their community members.  
 
 ## How to Use this Handbook and What to Expect
 
-**These primers are designed for you to read at your own pace and pick and choose the topics you want to read concerning open data.** Eventually, there will be five sections, though currently only the first primer is complete online.  We would sincerely appreciate your feedback.  If you have experience to share, see below under "Help us grow and improve this book!".
+**These primers are designed for you to read at your own pace and pick and choose the topics you want to read concerning open data.**  We would sincerely appreciate your feedback.  If you have experience to share, see below under "Help us grow and improve this book!".
 
-**Here's what's in the book:** 
-* In the first section, we'll define open data and discuss it's value, successes and challenges. 
-* In Section 2, we'll walk through what's needed to make your data open and usable by others. 
-* In Section 3, we'll talk about where and how to share your data, of if you even should. 
-* In Section 4, we'll provide tips on how to find data that has been made available by others. 
+**Here's what's in the book:**
+* In the first section, we'll define open data and discuss it's value, successes and challenges.
+* In Section 2, we'll walk through what's needed to make your data open and usable by others.
+* In Section 3, we'll talk about where and how to share your data, of if you even should.
+* In Section 4, we'll provide tips on how to find data that has been made available by others.
 * Finally, in Section 5, we'll discuss what you need to know and do to reuse other people's data.
 
 ## How to Connect, and Get Help!
