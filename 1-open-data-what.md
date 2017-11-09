@@ -12,7 +12,7 @@ The [Open Knowledge Foundation](https://okfn.org/), an organization dedicated to
 * **Re-use & redistribution** - terms of use allow for reusing, remixing and redistributing the data
 * **Universal participation** - there are no restrictions on who may do any of the above with the data
 
-Similarly, the [FAIR research principles](https://www.nature.com/articles/sdata201618?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+sdata%2Frss%2Fcurrent+(Scientific+Data) advocate for **Findable, Accessible, Interoperable, and Reusable** data.
+Similarly, the [FAIR research principles](https://www.nature.com/articles/sdata201618?) advocate for **Findable, Accessible, Interoperable, and Reusable** data.
 
 So what is open data? **Open data is data that is made freely and easily available to anyone to use, reuse and distribute.**
 
