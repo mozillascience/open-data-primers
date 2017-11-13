@@ -1,6 +1,6 @@
 # Welcome to Mozilla Science Lab's Open Data Primers!
 
-###Hello! Thanks for dropping by.
+### Hello! Thanks for dropping by.
 
 You're reading an [online handbook](https://mozillascience.github.io/open-data-primers/) of Open Data Training Primers developed by the [Mozilla Science Lab](https://science.mozilla.org/) and their community members.  
 
