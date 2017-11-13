@@ -1,6 +1,6 @@
 # Sharing Your Data: A Primer
 
-## Hello.
+## Howdy.
 
 ### [Data Mgmt Snafu Video](https://www.youtube.com/watch?v=N2zK3sAtr-4)
 
