@@ -5,7 +5,7 @@
         
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE=8; IE=7; IE=EDGE" />
-        <title>How to Open Your Data | Welcome to Mozilla Science Lab&#39;s Open Data Primers!</title>
+        <title>A Data Blind Date | Welcome to Mozilla Science Lab&#39;s Open Data Primers!</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 2.0.1">
@@ -20,10 +20,10 @@
         
     
     
-    <link rel="next" href="./2.1-blind-data.html" />
+    <link rel="next" href="./2.2-metadata.html" />
     
     
-    <link rel="prev" href="./1.3-resources.html" />
+    <link rel="prev" href="./2-how-to.html" />
     
 
         
@@ -40,7 +40,7 @@
     
 
         
-    <div class="book" data-level="2" data-basepath="." data-revision="Wed Nov 22 2017 21:41:48 GMT+0000 (UTC)">
+    <div class="book" data-level="2.1" data-basepath="." data-revision="Wed Nov 22 2017 21:41:48 GMT+0000 (UTC)">
     
 
 <div class="book-summary">
@@ -136,7 +136,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="2" data-path="2-how-to.html">
+        <li class="chapter " data-level="2" data-path="2-how-to.html">
             
                 
                     <a href="./2-how-to.html">
@@ -152,7 +152,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="2.1" data-path="2.1-blind-data.html">
+        <li class="chapter active" data-level="2.1" data-path="2.1-blind-data.html">
             
                 
                     <a href="./2.1-blind-data.html">
@@ -562,12 +562,16 @@
                 
                     <section class="normal" id="section-">
                     
-                        <a id="edit-link" href="https://github.com/mozillascience/open-data-primers/edit/master/2-how-to.md" class="btn fa fa-edit pull-left">&nbsp;&nbsp;Edit</a><h1 id="how-to-open-your-data-a-primer">How To Open Your Data: A Primer</h1>
-<h2 id="hi">Hi!</h2>
-<h3 id="if-you-love-your-data-set-it-free">If you love your data, set it free.</h3>
-<p>The aim of open data is to maximize the potential of your data and to help it find new users and new uses.</p>
-<p>Your data may hold the answers to unexpected questions and enable other researchers to further knowledge in surprising ways (for more about this, see our first primer, &quot;<a href="1-open-data-what.html">Why Open Data</a>&quot;). <strong>In this second primer we&#x2019;ll explore how you can make your data findable, accessible, comprehensible, and easily usable by others, before you share it widely.</strong></p>
-<p>As you read through this primer, keep two things in mind: 1) your own dataset, which you probably have spent time carefully and lovingly collecting, curating, and analyzing, and 2) an imaginary stranger, somewhere out there on the internet, who knows absolutely nothing about your dataset, but might have an exciting, novel use for it. <strong>The process of opening your data is the process of bringing #1 and #2 together-- introducing your dataset to a complete stranger.</strong> Let&#x2019;s get started!</p>
+                        <a id="edit-link" href="https://github.com/mozillascience/open-data-primers/edit/master/2.1-blind-data.md" class="btn fa fa-edit pull-left">&nbsp;&nbsp;Edit</a><h1 id="a-data-blind-date">A Data Blind Date</h1>
+<p>To introduce our dataset to a complete stranger who might want to reuse it, we&#x2019;ll need some really great metadata. Metadata is information about information. What does that mean? Let&#x2019;s look at an example-- let&#x2019;s meet some strange data on the internet, and try to get to know it better:</p>
+<p><img src="images/datum.png" alt="data cell"></p>
+<p>This is a number, a value, and it certainly looks like a data point. It could be the most important value in a data set, the value that proves a groundbreaking theory... or the one that sinks it. But it&#x2019;s obviously meaningless if we don&#x2019;t know what it measures.  Here&#x2019;s our data point, with a bit of context:</p>
+<p><img src="images/tablepart.png" alt="more data cells"></p>
+<p>From this expanded dataset we can begin to make out a story.  The first column seems to be date and time, so this is probably part of a time series.  In the last field, each entry is tagged as an &#x201C;earthquake,&#x201D; and there are locations listed, too-- we might guess that we&#x2019;re looking at seismic data. It seems that our highlighted value is linked to an earthquake West of Anchor Point, Alaska, but we still don&#x2019;t know what that &#x201C;3.2&#x201D;  value actually represents. </p>
+<p><strong>A researcher intimately acquainted with this dataset and collection methods might have no trouble reading and understanding it. But if we imagine that we&#x2019;re newcomers to data and that this is all the information we have, the data set is unusable because we just don&#x2019;t know enough about it.</strong> What happens if we have access to a bit more information?</p>
+<p><img src="images/tablehead.png" alt="more data cells"></p>
+<p>Finally, labels for every column! These labels are metadata, or information that describes data. This is much better-- at last we see the highlighted value is labeled &#x201C;mag.&#x201D; Since we&#x2019;re talking earthquakes, perhaps that&#x2019;s an abbreviation for magnitude. Some of the other labels are familiar: latitude and longitude, depth and place. We can infer that his data shows seismic events logged in early May of 2016. </p>
+<p>And yet, mysteries remain. For example, what is the unit of measure for depth? And what do &#x201C;nst,&#x201D; and &#x201C;rms&#x201D; stand for? What scale is used for &#x201C;mag&#x201D;? What is &#x201C;mag type?&#x201D; <strong>Even if we had more familiarity with the terminology, we still don&#x2019;t know the origins of the data, who collected it, and why and how.  Even with labels, we don&#x2019;t have the whole picture.</strong></p>
 
                     
                     </section>
@@ -578,10 +582,10 @@
         </div>
 
         
-        <a href="./1.3-resources.html" class="navigation navigation-prev " aria-label="Previous page: Additional Resources"><i class="fa fa-angle-left"></i></a>
+        <a href="./2-how-to.html" class="navigation navigation-prev " aria-label="Previous page: How to Open Your Data"><i class="fa fa-angle-left"></i></a>
         
         
-        <a href="./2.1-blind-data.html" class="navigation navigation-next " aria-label="Next page: A Data Blind Date"><i class="fa fa-angle-right"></i></a>
+        <a href="./2.2-metadata.html" class="navigation navigation-next " aria-label="Next page: Metadata, a Love Note to the Future"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>

@@ -5,7 +5,7 @@
         
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE=8; IE=7; IE=EDGE" />
-        <title>How to Open Your Data | Welcome to Mozilla Science Lab&#39;s Open Data Primers!</title>
+        <title>Data Wrangling | Welcome to Mozilla Science Lab&#39;s Open Data Primers!</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 2.0.1">
@@ -20,10 +20,10 @@
         
     
     
-    <link rel="next" href="./2.1-blind-data.html" />
+    <link rel="next" href="./5.3-license-stacking.html" />
     
     
-    <link rel="prev" href="./1.3-resources.html" />
+    <link rel="prev" href="./5.1-convert-formats.html" />
     
 
         
@@ -40,7 +40,7 @@
     
 
         
-    <div class="book" data-level="2" data-basepath="." data-revision="Wed Nov 22 2017 21:41:48 GMT+0000 (UTC)">
+    <div class="book" data-level="5.2" data-basepath="." data-revision="Wed Nov 22 2017 21:41:48 GMT+0000 (UTC)">
     
 
 <div class="book-summary">
@@ -136,7 +136,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="2" data-path="2-how-to.html">
+        <li class="chapter " data-level="2" data-path="2-how-to.html">
             
                 
                     <a href="./2-how-to.html">
@@ -410,7 +410,7 @@
             
         </li>
     
-        <li class="chapter " data-level="5.2" data-path="5.2-data-wrangling.html">
+        <li class="chapter active" data-level="5.2" data-path="5.2-data-wrangling.html">
             
                 
                     <a href="./5.2-data-wrangling.html">
@@ -562,12 +562,18 @@
                 
                     <section class="normal" id="section-">
                     
-                        <a id="edit-link" href="https://github.com/mozillascience/open-data-primers/edit/master/2-how-to.md" class="btn fa fa-edit pull-left">&nbsp;&nbsp;Edit</a><h1 id="how-to-open-your-data-a-primer">How To Open Your Data: A Primer</h1>
-<h2 id="hi">Hi!</h2>
-<h3 id="if-you-love-your-data-set-it-free">If you love your data, set it free.</h3>
-<p>The aim of open data is to maximize the potential of your data and to help it find new users and new uses.</p>
-<p>Your data may hold the answers to unexpected questions and enable other researchers to further knowledge in surprising ways (for more about this, see our first primer, &quot;<a href="1-open-data-what.html">Why Open Data</a>&quot;). <strong>In this second primer we&#x2019;ll explore how you can make your data findable, accessible, comprehensible, and easily usable by others, before you share it widely.</strong></p>
-<p>As you read through this primer, keep two things in mind: 1) your own dataset, which you probably have spent time carefully and lovingly collecting, curating, and analyzing, and 2) an imaginary stranger, somewhere out there on the internet, who knows absolutely nothing about your dataset, but might have an exciting, novel use for it. <strong>The process of opening your data is the process of bringing #1 and #2 together-- introducing your dataset to a complete stranger.</strong> Let&#x2019;s get started!</p>
+                        <a id="edit-link" href="https://github.com/mozillascience/open-data-primers/edit/master/5.2-data-wrangling.md" class="btn fa fa-edit pull-left">&nbsp;&nbsp;Edit</a><h1 id="data-wrangling">Data Wrangling</h1>
+<p>Most datasets produced by others will require some quality control and manipulation to get them into a format that&#x2019;s useful for your analysis.  It&#x2019;s really easy to get lost in this step -- it can be quite a challenge! Many researchers don&#x2019;t think too much about data wrangling except while they&#x2019;re actually doing the data manipulation. So it&#x2019;s not uncommon to find data that needs some attention before it can be reused.</p>
+<p><strong>For your work to be reproducible, it&#x2019;s really important to think about data wrangling details up front.</strong> There are LOTS of ways to approach wrangling other people&#x2019;s data.  It&#x2019;s actually what a good portion of the data science field was built on.  <strong>The main things you need to think about are good documentation and automation.</strong> Good documentation in a DATA_README file allows a future researcher to follow your steps and repeat the manipulations you made of the data:</p>
+<ul>
+<li>Did you remove outlying data points?</li>
+<li>What decision rules did you use to identify them?</li>
+<li>Did you combine sub-samples or treatments?  </li>
+<li>Did you have to correct errors in the data?</li>
+<li>What assumptions did you make?
+...and so on</li>
+</ul>
+<p>Operations like data cleaning and error correction can be done by hand in a spreadsheet program. However, if you&#x2019;re manipulating large amounts of data or need to do the same manipulations to multiple data sets, consider automating the analysis by <a href="https://www.youtube.com/watch?v=6PVMJE3HBN0" target="_blank">writing a computer script</a>. Scripts are great because they both record everything that was done to the data, and can be reused to re-clean the data, if necessary. </p>
 
                     
                     </section>
@@ -578,10 +584,10 @@
         </div>
 
         
-        <a href="./1.3-resources.html" class="navigation navigation-prev " aria-label="Previous page: Additional Resources"><i class="fa fa-angle-left"></i></a>
+        <a href="./5.1-convert-formats.html" class="navigation navigation-prev " aria-label="Previous page: Converting File Formats"><i class="fa fa-angle-left"></i></a>
         
         
-        <a href="./2.1-blind-data.html" class="navigation navigation-next " aria-label="Next page: A Data Blind Date"><i class="fa fa-angle-right"></i></a>
+        <a href="./5.3-license-stacking.html" class="navigation navigation-next " aria-label="Next page: License Stacking"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>

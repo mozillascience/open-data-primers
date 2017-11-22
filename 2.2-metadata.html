@@ -5,7 +5,7 @@
         
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE=8; IE=7; IE=EDGE" />
-        <title>How to Open Your Data | Welcome to Mozilla Science Lab&#39;s Open Data Primers!</title>
+        <title>Metadata, a Love Note to the Future | Welcome to Mozilla Science Lab&#39;s Open Data Primers!</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 2.0.1">
@@ -20,10 +20,10 @@
         
     
     
-    <link rel="next" href="./2.1-blind-data.html" />
+    <link rel="next" href="./2.3-data-readme.html" />
     
     
-    <link rel="prev" href="./1.3-resources.html" />
+    <link rel="prev" href="./2.1-blind-data.html" />
     
 
         
@@ -40,7 +40,7 @@
     
 
         
-    <div class="book" data-level="2" data-basepath="." data-revision="Wed Nov 22 2017 21:41:48 GMT+0000 (UTC)">
+    <div class="book" data-level="2.2" data-basepath="." data-revision="Wed Nov 22 2017 21:41:48 GMT+0000 (UTC)">
     
 
 <div class="book-summary">
@@ -136,7 +136,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="2" data-path="2-how-to.html">
+        <li class="chapter " data-level="2" data-path="2-how-to.html">
             
                 
                     <a href="./2-how-to.html">
@@ -167,7 +167,7 @@
             
         </li>
     
-        <li class="chapter " data-level="2.2" data-path="2.2-metadata.html">
+        <li class="chapter active" data-level="2.2" data-path="2.2-metadata.html">
             
                 
                     <a href="./2.2-metadata.html">
@@ -562,12 +562,18 @@
                 
                     <section class="normal" id="section-">
                     
-                        <a id="edit-link" href="https://github.com/mozillascience/open-data-primers/edit/master/2-how-to.md" class="btn fa fa-edit pull-left">&nbsp;&nbsp;Edit</a><h1 id="how-to-open-your-data-a-primer">How To Open Your Data: A Primer</h1>
-<h2 id="hi">Hi!</h2>
-<h3 id="if-you-love-your-data-set-it-free">If you love your data, set it free.</h3>
-<p>The aim of open data is to maximize the potential of your data and to help it find new users and new uses.</p>
-<p>Your data may hold the answers to unexpected questions and enable other researchers to further knowledge in surprising ways (for more about this, see our first primer, &quot;<a href="1-open-data-what.html">Why Open Data</a>&quot;). <strong>In this second primer we&#x2019;ll explore how you can make your data findable, accessible, comprehensible, and easily usable by others, before you share it widely.</strong></p>
-<p>As you read through this primer, keep two things in mind: 1) your own dataset, which you probably have spent time carefully and lovingly collecting, curating, and analyzing, and 2) an imaginary stranger, somewhere out there on the internet, who knows absolutely nothing about your dataset, but might have an exciting, novel use for it. <strong>The process of opening your data is the process of bringing #1 and #2 together-- introducing your dataset to a complete stranger.</strong> Let&#x2019;s get started!</p>
+                        <a id="edit-link" href="https://github.com/mozillascience/open-data-primers/edit/master/2.2-metadata.md" class="btn fa fa-edit pull-left">&nbsp;&nbsp;Edit</a><h1 id="metadata-a-love-note-to-the-future">Metadata: A Love Note to the Future</h1>
+<p><strong>Our future users-- and even our future selves, who may eventually forget some of the finer details of our own datasets months or years on-- need well-described, thoroughly documented data sets to ensure proper, responsible use and reuse.</strong>  In the previous example, we saw how baffling a dataset can be when we don&#x2019;t have access to good metadata about it.</p>
+<p>The example data set we looked at was (...big reveal...) sourced from the United States Geographical Survey (USGS), which makes earthquake data available on its website, as downloadable .CSV files (simple text files with values separated by commas), or even as live streams. The downloaded file we saw above was the result of a query to the USGS database for earthquakes detected within a certain time frame-- 24 hours in early May of 2016.</p>
+<p>Luckily for us, the USGS has carefully documented their data sets on their web site, and provides a terrific reference <a href="http://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php" target="_blank">guide to the CSV spreadsheet format</a>, including a glossary of terms to explain the metadata! Here are some example definitions from that glossary:</p>
+<p><img src="images/depth.png" alt="depth">
+<img src="images/mag.png" alt="mag"></p>
+<p>The magnitude-- the data type of that initial highlighted value-- links to yet more information:</p>
+<p><img src="images/magnitude.png" alt="magnitude"></p>
+<p>Anyone using this data will benefit from detailed documentation. <strong>Even the researcher who collected this data years back will need this information, if collection methods, instrumentation, or scales have changed in the intervening time period.</strong>  Note that some disciplines have rules for metadata called <strong>metadata schemas</strong>.  Check with a data-savvy colleague or a librarian to determine if there is a standard metadata schema you should be using for your data.</p>
+<p>Now we&#x2019;ve got our metadata and good information about each data product, but there&#x2019;s one more thing, something that could easily be missed if we downloaded this file and then shared it with others without any other descriptors.  If you look closely, you&#x2019;ll see that none of the earthquakes in this data set (pictured here in its full glory) register less than a magnitude 2.5. USGS allows researchers to query a large database, and request certain subsets of data that are pertinent to a particular question or study. When this CSV file was created, someone helpfully named it &#x201C;USGSquery&gt;2.5,&#x201D; to indicate that these earthquakes that registered 2.5 magnitude or greater. But this information is not documented elsewhere in the actual file. <strong>A newcomer who&#x2019;s not clued in to this notation could very easily, mistakenly assume that this is the full set of data for all earthquakes, when it&#x2019;s only a curated subset.</strong></p>
+<p><img src="images/table.png" alt="full table"></p>
+<p><strong>Our example data set highlights the need for external documentation that goes with your dataset wherever it goes.</strong> We need to create supplementary data files that tell the full story of the data set-- what the data is about, who collected it, where it was collected, when, and how. This is your &#x201C;love note to the future&#x201D;-- your way of preparing your data with those future users (or your future self) in mind, so they can reuse it effectively and responsibly. </p>
 
                     
                     </section>
@@ -578,10 +584,10 @@
         </div>
 
         
-        <a href="./1.3-resources.html" class="navigation navigation-prev " aria-label="Previous page: Additional Resources"><i class="fa fa-angle-left"></i></a>
+        <a href="./2.1-blind-data.html" class="navigation navigation-prev " aria-label="Previous page: A Data Blind Date"><i class="fa fa-angle-left"></i></a>
         
         
-        <a href="./2.1-blind-data.html" class="navigation navigation-next " aria-label="Next page: A Data Blind Date"><i class="fa fa-angle-right"></i></a>
+        <a href="./2.3-data-readme.html" class="navigation navigation-next " aria-label="Next page: Creating a Data_README"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>
