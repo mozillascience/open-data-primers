@@ -4,7 +4,8 @@
 
 You’re probably here because you’ve heard a lot about open data recently and you want to know more. This primer is a very quick introduction to the topic. We’ll be talking about the kind of data collected or observed by researchers, governments, and other groups to study problems or questions in fields as diverse as astrophysics, urban planning, and linguistics. This primer was produced by Mozilla Science Lab, a program dedicated encouraging the use of open source practices and web technologies to do better science.
 
-##Let’s talk open data.
+## Let’s talk open data.
+
 Before we begin, let's define a few terms.  By data we mean numbers, but also geospatial coordinates, text, images, multimedia items, and other types of information that can be used to answer questions or solve problems. Data can be collected by researchers and scientists-- for example, information on the spread of a population of ladybugs in a particular region, or the wavelengths of light emitted by a particular star. But data is also collected by governments, who may be interested in the number and location of potholes on a city street, or the geospatial pattern of new cases in an outbreak of the flu. Corporations and businesses collect data, too. **All of this data is potentially useful and powerful. “Opening” data means maximizing that potential.**
 
 The [Open Knowledge Foundation](https://okfn.org/), an organization dedicated to bringing “openness” to the mainstream, defines the following key factors that make data “open”:
