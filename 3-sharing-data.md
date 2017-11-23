@@ -2,7 +2,7 @@
 
 ## Howdy.
 
-### [Data Mgmt Snafu Video](https://www.youtube.com/watch?v=N2zK3sAtr-4)
+{% include videowrapper.html url="https://www.youtube.com/embed/N2zK3sAtr-4" title="Data Sharing and Management Snafu in 3 Short Acts, NYU Health Sciences Libraries" %}
 
 Take a few minutes to watch the video linked above.  Were you able to relate to the story?
 
