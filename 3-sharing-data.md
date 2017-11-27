@@ -2,7 +2,7 @@
 
 ## Howdy.
 
-{% include videowrapper.html url="https://www.youtube.com/embed/N2zK3sAtr-4" title="Data Sharing and Management Snafu in 3 Short Acts, NYU Health Sciences Libraries" %}
+VIDEO: [Data Sharing and Management Snafu in 3 Short Acts, NYU Health Sciences Libraries](https://www.youtube.com/embed/N2zK3sAtr-4) (4:40 mins)
 
 Take a few minutes to watch the video linked above.  Were you able to relate to the story?
 
